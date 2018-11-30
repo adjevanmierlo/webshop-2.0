@@ -15,7 +15,7 @@
             </div>
             <div class="navbar">
                   <a href="index.php">Home</a>
-                  <!-- <div class="dropdown">
+                   <div class="dropdown">
                 <button class="dropbtn">Producten 
                 <i class="fa fa-caret-down"></i>
                 </button>
@@ -28,10 +28,10 @@
                 <a href="#">Mac Pro</a>
                 <a href="#">Mac mini</a>
             </div>
-            </div> -->
-                  <!-- <a href="#">Find store</a>
-                  <a href="#">Contact</a> -->
-                  <a href="php\about-us.php">About-us</a>
+            </div> 
+                  <!-- <a href="#">Find store</a> -->
+                  <a href="#">Contact</a> 
+                  <a href="php\about-us.php">Find-store</a>
                   </div>
                   <div class="topnav-right">
                     <a href="php\sign-up.php">Aanmelden</a>

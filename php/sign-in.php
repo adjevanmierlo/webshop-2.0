@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../css/sign-up.css" rel="stylesheet" type="text/css">
+    <link href="../css/sign-in.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css\index.css" rel="stylesheet" type="text/css">
+    <link href="css\sign-in.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
     <title>Document</title>
@@ -26,7 +26,7 @@
             </div>
             <div class="navbar">
                   <a href="../index.php">Home</a>
-                  <!-- <div class="dropdown">
+                  <div class="dropdown">
                 <button class="dropbtn">Producten 
                 <i class="fa fa-caret-down"></i>
                 </button>
@@ -40,9 +40,9 @@
                 <a href="#">Mac mini</a>
             </div>
             </div>
-                  <a href="#">Find store</a>
-                  <a href="#">Contact</a> -->
-                  <a href="about-us.php">About-us</a>
+                  <!-- <a href="#">Find store</a> -->
+                  <a href="#">Contact</a>
+                  <a href="about-us.php">Find-store</a>
                   </div>
                   <div class="topnav-right">
                     <a href="sign-up.php">Aanmelden</a>

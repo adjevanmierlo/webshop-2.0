@@ -15,7 +15,7 @@
                 </div>
                 <div class="navbar">
                       <a href="..\index.php">Home</a>
-                      <!-- <div class="dropdown">
+                       <div class="dropdown">
                     <button class="dropbtn">Producten 
                     <i class="fa fa-caret-down"></i>
                     </button>
@@ -28,10 +28,10 @@
                     <a href="#">Mac Pro</a>
                     <a href="#">Mac mini</a>
                 </div>
-                </div> -->
-                      <!-- <a href="#">Find store</a>
-                      <a href="#">Contact</a> -->
-                      <a href="about-us.php">About-us</a>
+                </div>
+                      <!-- <a href="#">Find store</a> -->
+                      <a href="#">Contact</a>
+                      <a href="about-us.php">Find-store</a>
                       </div>
                       <div class="topnav-right">
                         <a href="..\php\sign-up.php">Aanmelden</a>
@@ -41,9 +41,9 @@
                       <div class="wrapper">
             <div class="photo-main">
                     <p>De winkel
-                            Madje Tetringen ligt aan de Immenhof, <br>
+                            Madje.nl ligt aan de Immenhof<br>
                              in het bourgondische hart van Teteringen.<br> 
-                             Het enthousiaste team van Madje Teteringen houdt <br> je scherp en helpt bij het kiezen van de juiste <br>
+                             Het enthousiaste team van Madje.nl houdt <br> je scherp en helpt bij het kiezen van de juiste <br>
                              oplossing voor jouw Apple-product of -accessoires. <br>
                              Teteringen heeft vele marktpleinen waar je cafés en restaurants vindt.<br>
                              Bakkerij De Jong en de Grote Kerk zijn zeker een bezoek waard.</p>
