@@ -29,7 +29,6 @@
                 <a href="#">Mac mini</a>
             </div>
             </div> 
-                  <!-- <a href="#">Find store</a> -->
                   <a href="#">Contact</a> 
                   <a href="php\about-us.php">Find-store</a>
                   </div>
@@ -40,6 +39,7 @@
                   </div> 
                   <div class="wrapper">
         <div class="photo-main">
+        <a href="php/sign-up.php"><button>Show-now</button></a>
         </div> 
         </div>
         <footer> 
