@@ -31,6 +31,7 @@
             </div> -->
                   <!-- <a href="#">Find store</a>
                   <a href="#">Contact</a> -->
+                  <a href="php\about-us.php">About-us</a>
                   </div>
                   <div class="topnav-right">
                     <a href="php\sign-up.php">Aanmelden</a>

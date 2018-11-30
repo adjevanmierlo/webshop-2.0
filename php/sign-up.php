@@ -42,6 +42,7 @@
             </div>
                   <a href="#">Find store</a>
                   <a href="#">Contact</a> -->
+                  <a href="about-us.php">About-us</a>
                   </div>
                   <div class="topnav-right">
                     <a href="sign-up.php">Aanmelden</a>
