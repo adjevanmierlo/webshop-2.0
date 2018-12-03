@@ -9,6 +9,7 @@
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding: 4px;
+  width: 94%;
 }
 
 .topnav-right{
@@ -81,10 +82,9 @@ flex: 1;
   text-align: left;
 }
 
-/* Voeg een grijze achtergrondkleur toe aan vervolgkeuzelinks on hover */
+
 .dropdown-content a:hover {
-  /* background-color: #ddd; */
-  border-bottom: solid 1px #333;
+  COLOR: saddlebrown;
 }
 
 /* Laat het menu zien on hover */

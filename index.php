@@ -29,7 +29,7 @@
                 <a href="#">Mac mini</a>
             </div>
             </div> 
-                  <a href="#">Contact</a> 
+                  <a href="php\contact.php">Contact</a> 
                   <a href="php\about-us.php">Find-store</a>
                   </div>
                   <div class="topnav-right">
@@ -39,7 +39,7 @@
                   </div> 
                   <div class="wrapper">
         <div class="photo-main">
-        <a href="php/sign-up.php"><button>Show-now</button></a>
+        <a href="php/products.php"><button>Shop-now</button></a>
         </div> 
         </div>
         <footer> 
@@ -56,10 +56,7 @@
             <a href="https://www.linkedin.com/"target="_blank"><img src="lay-out foto's\linked-in.png"></a>                            
             </div>
         </footer>
-        </div>
-
-
-         
+        </div>   
 </body>
 </html>
 
