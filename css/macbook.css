@@ -1,22 +1,24 @@
+body {
+  overflow-y: hidden;
+}
+
 .container {
-  width: 94%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "Lobster", serif;
   font-size: 20px;
   margin: 50px;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding: 4px;
+  width: 94%;
+  position: fixed;
 }
 
 .topnav-right {
   display: flex;
   flex: 1;
-  font-family: "Lobster", serif;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .photo {
@@ -84,7 +86,6 @@
   text-align: left;
 }
 
-/* Voeg een grijze achtergrondkleur toe aan vervolgkeuzelinks on hover */
 .dropdown-content a:hover {
   COLOR: saddlebrown;
 }
@@ -93,19 +94,9 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-.photo-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 94%;
-  background-image: url("../lay-out foto/index3.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 800px;
-}
-
+/* 
 button {
+  margin-bottom: 300px;
   font-size: 20px;
   background-color: transparent;
   font-family: 'Signika', sans-serif;
@@ -116,30 +107,52 @@ button {
   border-bottom: solid 1px white;
 }
 
-.photo-main a {
-  margin-left: 700px;
-  margin-top: 250px;
-}
-
 button:focus {
   border-bottom: solid 1px black;
+} */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex: 10;
+  justify-items: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+ 
+.flex-container div {
+  width: 100vw;
+  padding: 2%;
+  margin-top: 200px;
 }
 
-.wrapper {
+.flex-container div img {
+  height: 330px;
+}
+
+.flex-container div h3{
+  font-family: "Lobster", serif;
+}
+
+.flex-container p {
+  width: 450px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  font-family: "cabin";
 }
 
 /* Style de footer */
 footer {
   display: flex;
-  margin-top: 50px;
-  padding: 30px;
+  padding: 30px 0px;
   text-align: center;
   color: white;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   margin: 50px;
+  position: fixed;
+  width: 94%;
 }
 
 .copyright {
@@ -162,3 +175,4 @@ footer {
   height: 50px;
   width: 50px;
 }
+

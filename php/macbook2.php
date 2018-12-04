@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="..\css\products.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link href="..\css\macbook.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster/Cherry Swash">
     <script src="../js/products.js"></script>
     <title>product</title>
 </head>
@@ -39,17 +39,25 @@
                   </div>
                   </div> 
         <div class="flex-container">
-            <div><img src="../lay-out foto/products/product-top.jpg" alt="afbeelding niet beschikbaar"></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-1.png" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-2.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="macbook-air.php"><img src="../lay-out foto/products/product-3.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-4.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-5.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-6.png" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-7.jpg" alt="afbeelding niet beschikbaar"></a></div>
-                <!-- <p>Dont just look professional<br>
-                Be professional<br>
-                Buy a Mac</p> -->
+                <?php
+                include ("db_connection.php");   // altijd eerst deze regel toevoegen om een connectie met je db te maken //
+                    $sql = "SELECT *  FROM product where product_name = 'macbook'";  //slecteer alles van de tabel product waar de product naam gelijk is aan macbook //
+                    
+                    $data = $conn->query($sql); //dit is enkel om de query uit te voeren // 
+
+                    foreach ($data as $row)  // voor elke data maakt foreach een nieuwe rij //
+                    {   
+                        $htmlOutput  = "";         
+                        $htmlOutput  = '<div>'; // niets meer als je div waar je alles wilt hebben //
+                        $htmlOutput .= '<img src="../lay-out foto/' . $row['product_img'] . '" alt="afbeelding niet beschikbaar">';  
+                        $htmlOutput .= '</div>';   // niets meer als de div waar je in html hem afsluit //
+                        $htmlOutput .= '<div>';
+                        $htmlOutput .=  $row['product_information'];
+                        $htmlOutput .= '</div>';
+                        echo $htmlOutput;
+                    }  
+                
+                ?>
         </div>
         <footer> 
         <div class="copyright">

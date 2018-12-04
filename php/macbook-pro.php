@@ -12,7 +12,7 @@
 <body>
         <div class="container">
             <div class="photo">
-               <img src="..\lay-out foto\logo.png" width="100" height="100">
+               <img src="..\lay-out foto's\logo.png" width="100" height="100">
             </div>
             <div class="navbar">
                   <a href="..\index.php">Home</a>
@@ -39,30 +39,24 @@
                   </div>
                   </div> 
         <div class="flex-container">
-            <div><img src="../lay-out foto/products/product-top.jpg" alt="afbeelding niet beschikbaar"></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-1.png" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-2.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="macbook-air.php"><img src="../lay-out foto/products/product-3.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-4.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-5.jpg" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-6.png" alt="afbeelding niet beschikbaar"></a></div>
-            <div><a href="#"><img src="../lay-out foto/products/product-7.jpg" alt="afbeelding niet beschikbaar"></a></div>
-                <!-- <p>Dont just look professional<br>
-                Be professional<br>
-                Buy a Mac</p> -->
+            <div><img src="../lay-out foto's/macbook-pro/macbook-1.jpg" alt="afbeelding niet beschikbaar"></div>
+            <div><img src="../lay-out foto's/macbook-pro/macbook-2.png" alt="afbeelding niet beschikbaar"></div>
+            <div><img src="../lay-out foto's/macbook-pro/macbook-3.png" alt="afbeelding niet beschikbaar"></div>
+            <div><img src="../lay-out foto's/macbook-pro/macbook-4.jpg" alt="afbeelding niet beschikbaar"></div>
+            <div><img src="../lay-out foto's/macbook-pro/macbook-5.jpg" alt="afbeelding niet beschikbaar"></div>
         </div>
         <footer> 
         <div class="copyright">
         &#9400; Adje van Mierlo
         </div>       
             <div class="social">
-                <a href="https://www.facebook.com" target="_blank"><img src="../lay-out foto\facebook.png"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="../lay-out foto's\facebook.png"></a>
             <!-- </div> -->
             <!-- <div class="instagram"> -->
-            <a href="https://www.instagram.com"target="_blank"><img src="../lay-out foto\instagram.png"></a>
+            <a href="https://www.instagram.com"target="_blank"><img src="../lay-out foto's\instagram.png"></a>
             <!-- </div> -->
             <!-- <div class="linkedin" -->
-            <a href="https://www.linkedin.com/"target="_blank"><img src="../lay-out foto\linked-in.png"></a>                            
+            <a href="https://www.linkedin.com/"target="_blank"><img src="../lay-out foto's\linked-in.png"></a>                            
             </div>
         </footer>
         </div>    
