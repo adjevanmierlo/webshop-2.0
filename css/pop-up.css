@@ -1,0 +1,29 @@
+#pop-up-winkelwagen{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 10px;
+    top: 50px;
+    background-color: white;
+}
+
+.winkel{
+    justify-content: center;
+    align-items: center;
+}
+
+#pop-up-winkelwagen h1{
+    font-family: "Lobster", serif; 
+}
+
+.winkel p{
+    font-family: "cabin";
+}
+
+#winkelwagen-button{
+    background: transparent;
+    border:none;
+    outline: none;
+}

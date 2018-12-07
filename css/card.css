@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+    top: -25px;
+    left: 0;
+    font-family: "Ubuntu";
+  }
+  
+  .price {
+    color: black;
+    font-size: 22px;
+    margin-left: -100px;
+    font-family: "Abel";
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: silver;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Ubuntu";
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card img{
+  width: 100%;
+  max-height: 200px;
+}

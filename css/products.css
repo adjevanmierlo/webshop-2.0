@@ -1,170 +1,172 @@
- body {
-   overflow-y: hidden;
- }
+body {
+  overflow-y: hidden;
+}
 
- .container {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   font-family: "Lobster", serif;
-   font-size: 20px;
-   margin: 50px;
-   border-bottom: 1px solid black;
-   border-top: 1px solid black;
-   padding: 4px;
-   width: 94%;
-   position: fixed;
- }
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  margin: 50px;
+  padding: 1px;
+  width: 100%;
+  position: fixed;
+  top: -50px;
+  background-color: silver;
+  margin-left: -10px;
+}
 
- .topnav-right {
-   display: flex;
-   flex: 1;
-   font-family: "Lobster", serif;
-   justify-content: flex-end;
- }
+.topnav-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
 
- .photo {
-   display: flex;
-   flex: 1;
+.topnav-right :hover{
+  transform: scale(1.1);
+}
 
- }
+.photo {
+  display: flex;
+  flex: 1;
+} 
 
- .navbar {
-   display: flex;
-   flex: 1;
- }
+.navbar {
+  display: flex;
+  flex: 1;
+  font-family: "Abel";
+}
 
+/* Links in de navbar */
+.navbar a,
+.topnav-right a {
+  font-family: "Abel";
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
- /* Links in de navbar */
- .navbar a,
- .topnav-right a {
-   font-family: "Lobster", serif;
-   float: left;
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
- }
+/* de dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-family: "Abel";
+  font-size: 20px;
+}
 
- /* de dropdown container */
- .dropdown {
-   float: left;
-   overflow: hidden;
-   font-family: "Lobster", serif;
-   font-size: 20px;
- }
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-family: "Abel";
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  /* Belangrijk voor verticale uitlijning op mobiele telefoons */
+}
 
- /* Dropdown button */
- .dropdown .dropbtn {
-   font-family: "Lobster", serif;
-   font-size: 20px;
-   border: none;
-   outline: none;
-   color: black;
-   padding: 14px 16px;
-   background-color: inherit;
-   margin: 0;
-   /* Belangrijk voor verticale uitlijning op mobiele telefoons */
- }
+/* dropdown-inhoud (standaard verborgen) */
+.dropdown-content {
+  font-size: 20px;
+  display: none;
+  position: absolute;
+  background-color: silver;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
- /* dropdown-inhoud (standaard verborgen) */
- .dropdown-content {
-   font-size: 20px;
-   display: none;
-   position: absolute;
-   background-color: white;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-   z-index: 1;
- }
+/* Links in de dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
- /* Links in de dropdown */
- .dropdown-content a {
-   float: none;
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block;
-   text-align: left;
- }
+.dropdown-content a:hover {
+  transform: scale(1.1);
+}
 
- .dropdown-content a:hover {
-   COLOR: saddlebrown;
- }
+/* Laat het menu zien on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
- /* Laat het menu zien on hover */
- .dropdown:hover .dropdown-content {
-   display: block;
- }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex: 10;
+  justify-items: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 300px;
+}
+ 
+.flex-container div {
+  width: 100vw;
+  padding: 2%;
+  margin-top: 200px;
+}
 
- button {
-   margin-bottom: 300px;
-   font-size: 20px;
-   background-color: transparent;
-   font-family: 'Signika', sans-serif;
-   background-color: rgba(255, 255, 255, .2);
-   border: none;
-   outline: 0;
-   padding: 5px;
-   border-bottom: solid 1px white;
- }
+.flex-container div img {
+  height: 330px;
+}
 
- button:focus {
-   border-bottom: solid 1px black;
- }
+.flex-container div h3{
+  font-family: "Ubuntu";
+  font-size: 30px;
+}
 
- .flex-container {
-   display: flex;
-   flex-direction: row;
-   /* flex-direction: column; */
-   flex: 8;
-   justify-items: space-between;
-   align-items: center;
- }
+.flex-container p {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel";
+  font-size: 18px;
+}
 
- .flex-container div {
-   width: 100vw;
-   padding: 2%;
-   margin-top: 200px;
+/* Style de footer */
+footer {
+  display: flex;
+  text-align: center;
+  color: white;
+  background-color: silver;
+  padding: 13px;
+  /* border-bottom: 1px solid black;
+  border-top: 1px solid black; */
+  margin: 50px;
+  position: fixed;
+  width: 100%;
+  bottom: -50px;
+  margin-left: -20px;
 
- }
+}
 
- .flex-container div img {
-   height: 330px;
- }
+.copyright {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  font-family: "Abel";
+  font-size: 20px;
+}
 
+.social {
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+}
 
- /* Style de footer */
- footer {
-   display: flex;
-   margin-top: 50px;
-   padding: 30px 0px;
-   text-align: center;
-   color: white;
-   border-bottom: 1px solid black;
-   border-top: 1px solid black;
-   margin: 50px;
-   position: fixed;
-   width: 94%;
- }
-
- .copyright {
-   display: flex;
-   flex: 1;
-   align-items: center;
-   justify-content: flex-start;
-   color: black;
-   font-family: "Lobster", serif;
-   font-size: 20px;
- }
-
- .social {
-   display: flex;
-   flex: 3;
-   justify-content: flex-end;
- }
-
- .social img {
-   height: 50px;
-   width: 50px;
- }
+.social img {
+  height: 30px;
+  width: 30px;
+}

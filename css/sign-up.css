@@ -2,38 +2,56 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "Lobster", serif;
   font-size: 20px;
   margin: 50px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding: 4px;
-  width: 94%;
+  padding: 1px;
+  width: 100%;
+  position: fixed;
+  top: -50px;
+  background-color: silver;
+  margin-left: -10px;
+}
+.topnav-right img{
+  margin-top: 10px;
+}
+
+.topnav-right img{
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .topnav-right {
   display: flex;
   flex: 1;
-  font-family: "Lobster", serif;
   justify-content: flex-end;
+}
+
+.topnav-right :hover{
+  transform: scale(1.1);
 }
 
 .photo {
   display: flex;
   flex: 1;
+  margin-left: 10px;
 
 }
 
 .navbar {
   display: flex;
   flex: 1;
+  font-family: "Abel";
+}
+
+.topnav-right :hover{
+  transform: scale(1.1);
 }
 
 
 /* Links in de navbar */
 .navbar a,
 .topnav-right a {
-  font-family: "Lobster", serif;
+  font-family: "Abel";
   float: left;
   color: black;
   text-align: center;
@@ -45,13 +63,13 @@
 .dropdown {
   float: left;
   overflow: hidden;
-  font-family: "Lobster", serif;
+  font-family: "Abel";
   font-size: 20px;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-family: "Lobster", serif;
+  font-family: "Abel";
   font-size: 20px;
   border: none;
   outline: none;
@@ -67,7 +85,7 @@
   font-size: 20px;
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: silver;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -85,7 +103,7 @@
 
 /* Voeg een grijze achtergrondkleur toe aan vervolgkeuzelinks on hover */
 .dropdown-content a:hover {
-  COLOR: saddlebrown;
+  transform: scale(1.1);
 }
 
 /* Laat het menu zien on hover */
@@ -97,11 +115,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 94%;
-  background-image: url("../lay-out foto's/login.png");
+  width: 100%;
+  background-image: url("../lay-out foto/login.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 800px;
+  height: 900px;
 
 
 }
@@ -114,13 +132,15 @@
 /* Style de footer */
 footer {
   display: flex;
-  margin-top: 50px;
-  padding: 30px;
   text-align: center;
   color: white;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  background-color: silver;
+  padding: 4px;
   margin: 50px;
+  position: fixed;
+  width: 100%;
+  bottom: -50px;
+  margin-left: -10px;
 }
 
 .copyright {
@@ -129,8 +149,9 @@ footer {
   align-items: center;
   justify-content: flex-start;
   color: black;
-  font-family: "Lobster", serif;
+  font-family: "Abel";
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .social {
@@ -140,13 +161,14 @@ footer {
 }
 
 .social img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
 
 form {
   font-size: 20px;
-  font-family: 'Signika', sans-serif;
+  font-family: 'ubuntu';
   margin-bottom: 100px;
   margin-left: 125px;
 }
@@ -154,7 +176,7 @@ form {
 button {
   font-size: 20px;
   background-color: transparent;
-  font-family: 'Signika', sans-serif;
+  font-family: 'ubuntu';
   background-color: rgba(255, 255, 255, .2);
   border: none;
   outline: 0;
@@ -168,7 +190,7 @@ button:focus {
 
 input {
   font-size: 15px;
-  font-family: 'Signika', sans-serif;
+  font-family: 'ubuntu';
   background-color: transparent;
   background-color: rgba(255, 255, 255, .2);
   border: none;

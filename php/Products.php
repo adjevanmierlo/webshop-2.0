@@ -12,7 +12,7 @@
 <body>
         <div class="container">
             <div class="photo">
-               <img src="..\lay-out foto\logo.png" width="100" height="100">
+               <img src="..\lay-out foto\logo.png" width="30" height="30">
             </div>
             <div class="navbar">
                   <a href="..\index.php">Home</a>

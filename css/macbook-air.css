@@ -23,6 +23,8 @@ body {
   justify-content: flex-end;
 }
 
+
+
 .photo {
   display: flex;
   flex: 1;
@@ -116,7 +118,7 @@ button:focus {
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex: 10;
+  flex: 12;
   justify-items: space-between;
   align-items: center;
   font-size: 20px;
